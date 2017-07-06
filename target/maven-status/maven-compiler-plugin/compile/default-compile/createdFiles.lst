@@ -1,0 +1,8 @@
+com\wavelabs\enrollment\EnrollmentJpaApplication.class
+com\wavelabs\enrollment\service\GoogleGeoCode.class
+com\wavelabs\enrollment\service\UserFlowService.class
+com\wavelabs\enrollment\repository\AutherizationTokensRepository.class
+com\wavelabs\enrollment\service\AddressSource.class
+com\wavelabs\enrollment\service\SocialUserService.class
+com\wavelabs\enrollment\repository\AddressRepository.class
+com\wavelabs\enrollment\repository\UserRepository.class

@@ -1,0 +1,8 @@
+com\wavelabs\enrollment\entity\test\AutherizationTokensTest.class
+com\wavelabs\enrollment\service\test\GoogleGeoCodeServiceTest.class
+com\wavelabs\enrollment\service\test\UserFlowServiceTest.class
+com\wavelabs\enrollment\service\test\SocialUserServiceTest.class
+com\wavelabs\enrollment\entity\test\UserTest.class
+com\wavelabs\enrollment\builder\DataBuilder.class
+com\wavelabs\enrollment\entity\test\AddressTest.class
+com\wavelabs\enrollment\service\test\AddressSourceTest.class

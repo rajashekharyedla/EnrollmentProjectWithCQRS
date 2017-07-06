@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8287671232876712" branch-rate="0.6764705882352942" lines-covered="121" lines-valid="146" branches-covered="23" branches-valid="34" complexity="1.323943661971831" version="2.1.1" timestamp="1498821353597">
+	<sources>
+		<source>E:/NBOS/EnrollmentProject/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="com.wavelabs.enrollment" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.EnrollmentJpaApplication" filename="com/wavelabs/enrollment/EnrollmentJpaApplication.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.controller" line-rate="0.4" branch-rate="0.0" complexity="1.6666666666666667">
+			<classes>
+				<class name="com.wavelabs.enrollment.controller.UserCommandContoller" filename="com/wavelabs/enrollment/controller/UserCommandContoller.java" line-rate="0.5714285714285714" branch-rate="0.0" complexity="1.5">
+					<methods>
+						<method name="addGmailUser" signature="(Lcom/wavelabs/enrollment/domain/User;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="1" branch="false"/>
+								<line number="65" hits="1" branch="false"/>
+								<line number="66" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="addfbUser" signature="(Lcom/wavelabs/enrollment/domain/User;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="1" branch="false"/>
+								<line number="72" hits="1" branch="false"/>
+								<line number="73" hits="1" branch="false"/>
+								<line number="74" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="findByEmail" signature="(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="56" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="normaluser" signature="(Lcom/wavelabs/enrollment/domain/User;)Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="56" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="64" hits="1" branch="false"/>
+						<line number="65" hits="1" branch="false"/>
+						<line number="66" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="71" hits="1" branch="false"/>
+						<line number="72" hits="1" branch="false"/>
+						<line number="73" hits="1" branch="false"/>
+						<line number="74" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.controller.UserQueryContoller" filename="com/wavelabs/enrollment/controller/UserQueryContoller.java" line-rate="0.0" branch-rate="0.0" complexity="2.0">
+					<methods>
+						<method name="getAll" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="login" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="44" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="36" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.domain" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.domain.Address" filename="com/wavelabs/enrollment/domain/Address.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.domain.AutherizationTokens" filename="com/wavelabs/enrollment/domain/AutherizationTokens.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.domain.Gender" filename="com/wavelabs/enrollment/domain/Gender.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/domain/Gender;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/domain/Gender;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.domain.LoginType" filename="com/wavelabs/enrollment/domain/LoginType.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/domain/LoginType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/domain/LoginType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.domain.Status" filename="com/wavelabs/enrollment/domain/Status.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+								<line number="4" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/domain/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/domain/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="4" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.domain.User" filename="com/wavelabs/enrollment/domain/User.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.entity" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.entity.Address" filename="com/wavelabs/enrollment/entity/Address.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.entity.AutherizationTokens" filename="com/wavelabs/enrollment/entity/AutherizationTokens.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.entity.Gender" filename="com/wavelabs/enrollment/entity/Gender.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="2" branch="false"/>
+								<line number="4" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/entity/Gender;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/entity/Gender;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="2" branch="false"/>
+						<line number="4" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.entity.LoginType" filename="com/wavelabs/enrollment/entity/LoginType.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="2" branch="false"/>
+								<line number="4" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/entity/LoginType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/entity/LoginType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="2" branch="false"/>
+						<line number="4" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.entity.Status" filename="com/wavelabs/enrollment/entity/Status.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="2" branch="false"/>
+								<line number="4" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/wavelabs/enrollment/entity/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/wavelabs/enrollment/entity/Status;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="2" branch="false"/>
+						<line number="4" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.entity.User" filename="com/wavelabs/enrollment/entity/User.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.repository" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.repository.AddressRepository" filename="com/wavelabs/enrollment/repository/AddressRepository.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.repository.AutherizationTokensRepository" filename="com/wavelabs/enrollment/repository/AutherizationTokensRepository.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.repository.UserRepository" filename="com/wavelabs/enrollment/repository/UserRepository.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.resource" line-rate="0.95" branch-rate="1.0" complexity="0.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.resource.FacebookUserResource" filename="com/wavelabs/enrollment/resource/FacebookUserResource.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="addfbUser" signature="(Lcom/wavelabs/enrollment/entity/User;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="2" branch="false"/>
+								<line number="36" hits="2" branch="false"/>
+								<line number="37" hits="2" branch="false"/>
+								<line number="38" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="35" hits="2" branch="false"/>
+						<line number="36" hits="2" branch="false"/>
+						<line number="37" hits="2" branch="false"/>
+						<line number="38" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.resource.GoogleUserResource" filename="com/wavelabs/enrollment/resource/GoogleUserResource.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="addGmailUser" signature="(Lcom/wavelabs/enrollment/entity/User;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="2" branch="false"/>
+								<line number="27" hits="2" branch="false"/>
+								<line number="28" hits="2" branch="false"/>
+								<line number="29" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="2" branch="false"/>
+						<line number="27" hits="2" branch="false"/>
+						<line number="28" hits="2" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.resource.UserLoginResource" filename="com/wavelabs/enrollment/resource/UserLoginResource.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="credentials" signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="4" branch="false"/>
+								<line number="26" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="27" hits="2" branch="false"/>
+								<line number="29" hits="4" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="4" branch="false"/>
+						<line number="26" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="27" hits="2" branch="false"/>
+						<line number="29" hits="4" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.resource.UserResource" filename="com/wavelabs/enrollment/resource/UserResource.java" line-rate="0.8571428571428571" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="findByEmail" signature="(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="4" branch="false"/>
+								<line number="39" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="40" hits="2" branch="false"/>
+								<line number="42" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAll" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="normaluser" signature="(Lcom/wavelabs/enrollment/entity/User;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="2" branch="false"/>
+								<line number="33" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="32" hits="2" branch="false"/>
+						<line number="33" hits="2" branch="false"/>
+						<line number="38" hits="4" branch="false"/>
+						<line number="39" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="40" hits="2" branch="false"/>
+						<line number="42" hits="2" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.service" line-rate="0.8913043478260869" branch-rate="0.7307692307692307" complexity="3.111111111111111">
+			<classes>
+				<class name="com.wavelabs.enrollment.service.AddressSource" filename="com/wavelabs/enrollment/service/AddressSource.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="persistAddress" signature="(Lcom/wavelabs/enrollment/domain/User;)Lcom/wavelabs/enrollment/domain/Address;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="3" branch="false"/>
+								<line number="22" hits="3" branch="false"/>
+								<line number="23" hits="3" branch="false"/>
+								<line number="24" hits="3" branch="false"/>
+								<line number="25" hits="3" branch="false"/>
+								<line number="26" hits="3" branch="false"/>
+								<line number="27" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="persistAddress" signature="(Lcom/wavelabs/enrollment/entity/User;)Lcom/wavelabs/enrollment/entity/Address;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="3" branch="false"/>
+						<line number="21" hits="3" branch="false"/>
+						<line number="22" hits="3" branch="false"/>
+						<line number="23" hits="3" branch="false"/>
+						<line number="24" hits="3" branch="false"/>
+						<line number="25" hits="3" branch="false"/>
+						<line number="26" hits="3" branch="false"/>
+						<line number="27" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.service.GoogleGeoCode" filename="com/wavelabs/enrollment/service/GoogleGeoCode.java" line-rate="0.9111111111111111" branch-rate="0.75" complexity="2.1666666666666665">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="3" branch="false"/>
+								<line number="15" hits="3" branch="false"/>
+								<line number="17" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="buildUrl" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="57" hits="3" branch="false"/>
+								<line number="59" hits="3" branch="false"/>
+								<line number="61" hits="3" branch="false"/>
+								<line number="62" hits="3" branch="false"/>
+								<line number="63" hits="3" branch="false"/>
+								<line number="65" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLatitudeLongitude" signature="(Ljava/lang/String;)[Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="3" branch="false"/>
+								<line number="21" hits="3" branch="false"/>
+								<line number="22" hits="3" branch="false"/>
+								<line number="23" hits="3" branch="false"/>
+								<line number="24" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLocation" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="0.7857142857142857" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="3" branch="false"/>
+								<line number="30" hits="3" branch="false"/>
+								<line number="33" hits="3" branch="false"/>
+								<line number="35" hits="3" branch="false"/>
+								<line number="38" hits="3" branch="false"/>
+								<line number="40" hits="3" branch="false"/>
+								<line number="42" hits="3" branch="false"/>
+								<line number="44" hits="3" branch="false"/>
+								<line number="46" hits="3" branch="false"/>
+								<line number="47" hits="3" branch="false"/>
+								<line number="49" hits="3" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getOrdinate" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="0.875" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="91" hits="6" branch="false"/>
+								<line number="93" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="0" branch="false"/>
+								<line number="97" hits="6" branch="false"/>
+								<line number="99" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="3" branch="false"/>
+								<line number="104" hits="6" branch="false"/>
+								<line number="106" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="parseLocation" signature="(Ljava/lang/String;)[Ljava/lang/String;" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="74" hits="3" branch="false"/>
+								<line number="76" hits="3" branch="false"/>
+								<line number="77" hits="3" branch="false"/>
+								<line number="79" hits="129" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="80" hits="129" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="81" hits="3" branch="false"/>
+								<line number="82" hits="3" branch="false"/>
+								<line number="83" hits="3" branch="false"/>
+								<line number="87" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="3" branch="false"/>
+						<line number="15" hits="3" branch="false"/>
+						<line number="17" hits="3" branch="false"/>
+						<line number="20" hits="3" branch="false"/>
+						<line number="21" hits="3" branch="false"/>
+						<line number="22" hits="3" branch="false"/>
+						<line number="23" hits="3" branch="false"/>
+						<line number="24" hits="3" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="30" hits="3" branch="false"/>
+						<line number="33" hits="3" branch="false"/>
+						<line number="35" hits="3" branch="false"/>
+						<line number="38" hits="3" branch="false"/>
+						<line number="40" hits="3" branch="false"/>
+						<line number="42" hits="3" branch="false"/>
+						<line number="44" hits="3" branch="false"/>
+						<line number="46" hits="3" branch="false"/>
+						<line number="47" hits="3" branch="false"/>
+						<line number="49" hits="3" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="57" hits="3" branch="false"/>
+						<line number="59" hits="3" branch="false"/>
+						<line number="61" hits="3" branch="false"/>
+						<line number="62" hits="3" branch="false"/>
+						<line number="63" hits="3" branch="false"/>
+						<line number="65" hits="3" branch="false"/>
+						<line number="74" hits="3" branch="false"/>
+						<line number="76" hits="3" branch="false"/>
+						<line number="77" hits="3" branch="false"/>
+						<line number="79" hits="129" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="80" hits="129" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="81" hits="3" branch="false"/>
+						<line number="82" hits="3" branch="false"/>
+						<line number="83" hits="3" branch="false"/>
+						<line number="87" hits="3" branch="false"/>
+						<line number="91" hits="6" branch="false"/>
+						<line number="93" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="0" branch="false"/>
+						<line number="97" hits="6" branch="false"/>
+						<line number="99" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="3" branch="false"/>
+						<line number="104" hits="6" branch="false"/>
+						<line number="106" hits="6" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.service.SocialUserService" filename="com/wavelabs/enrollment/service/SocialUserService.java" line-rate="1.0" branch-rate="0.5" complexity="3.0">
+					<methods>
+						<method name="persistSocialUser" signature="(Lcom/wavelabs/enrollment/domain/User;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="23" hits="2" branch="false"/>
+								<line number="24" hits="2" branch="false"/>
+								<line number="25" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="26" hits="4" branch="false"/>
+								<line number="29" hits="6" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
+								<line number="31" hits="6" branch="false"/>
+								<line number="32" hits="2" branch="false"/>
+								<line number="34" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="persistSocialUser" signature="(Lcom/wavelabs/enrollment/entity/User;Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="20" hits="4" branch="false"/>
+								<line number="21" hits="4" branch="false"/>
+								<line number="22" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="27" hits="4" branch="false"/>
+								<line number="28" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="4" branch="false"/>
+						<line number="21" hits="4" branch="false"/>
+						<line number="22" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="23" hits="2" branch="false"/>
+						<line number="24" hits="2" branch="false"/>
+						<line number="25" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="26" hits="4" branch="false"/>
+						<line number="27" hits="4" branch="false"/>
+						<line number="28" hits="4" branch="false"/>
+						<line number="29" hits="6" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+						<line number="31" hits="6" branch="false"/>
+						<line number="32" hits="2" branch="false"/>
+						<line number="34" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.service.UserFlowService" filename="com/wavelabs/enrollment/service/UserFlowService.java" line-rate="0.76" branch-rate="0.7857142857142857" complexity="11.0">
+					<methods>
+						<method name="normaluser" signature="(Lcom/wavelabs/enrollment/domain/User;)Ljava/lang/String;" line-rate="0.76" branch-rate="0.7857142857142857" complexity="0">
+							<lines>
+								<line number="23" hits="15" branch="false"/>
+								<line number="24" hits="15" branch="false"/>
+								<line number="25" hits="15" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="26" hits="3" branch="false"/>
+								<line number="28" hits="3" branch="false"/>
+								<line number="29" hits="3" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="3" branch="false"/>
+								<line number="36" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="37" hits="3" branch="false"/>
+								<line number="38" hits="9" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="39" hits="3" branch="false"/>
+								<line number="40" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="41" hits="3" branch="false"/>
+								<line number="42" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="43" hits="3" branch="false"/>
+								<line number="44" hits="3" branch="false"/>
+								<line number="46" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="0" branch="false"/>
+								<line number="49" hits="15" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="50" hits="12" branch="false"/>
+								<line number="52" hits="15" branch="false"/>
+							</lines>
+						</method>
+						<method name="normaluser" signature="(Lcom/wavelabs/enrollment/entity/User;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="15" branch="false"/>
+						<line number="24" hits="15" branch="false"/>
+						<line number="25" hits="15" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="26" hits="3" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="29" hits="3" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="3" branch="false"/>
+						<line number="36" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="37" hits="3" branch="false"/>
+						<line number="38" hits="9" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="39" hits="3" branch="false"/>
+						<line number="40" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="41" hits="3" branch="false"/>
+						<line number="42" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="43" hits="3" branch="false"/>
+						<line number="44" hits="3" branch="false"/>
+						<line number="46" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="0" branch="false"/>
+						<line number="49" hits="15" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="50" hits="12" branch="false"/>
+						<line number="52" hits="15" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wavelabs.enrollment.services" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wavelabs.enrollment.services.CommandService" filename="com/wavelabs/enrollment/services/CommandService.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.wavelabs.enrollment.services.QueryService" filename="com/wavelabs/enrollment/services/QueryService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

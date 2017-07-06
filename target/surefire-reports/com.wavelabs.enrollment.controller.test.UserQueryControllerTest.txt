@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.wavelabs.enrollment.controller.test.UserQueryControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.wavelabs.enrollment.controller.test.UserQueryControllerTest
+initializationError(com.wavelabs.enrollment.controller.test.UserQueryControllerTest)  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+
+No tests found in UserQueryControllerTest
+Haven't you forgot @Test annotation?
+
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.junit.runners.model.InitializationError
+
